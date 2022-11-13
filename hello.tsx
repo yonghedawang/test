@@ -2,8 +2,11 @@ const hello1: string = "Hello world!";
 console.log(hello1);
 
 class Site {
-    name(): void {  //:void 可有可无
-        console.log("看不懂，伟大写个void");
+
+    //用于标识方法返回值的类型，表示该方法没有返回值。
+    name(): void {  
+        console.log("void 用于标识方法返回值的类型，表示该方法没有返回值。");
+        //return 0; 加了void return 就会报错
     }
 }
 
